@@ -80,7 +80,7 @@ The average time per prediction for each language:
    ```bash
     g++ -o knn_cpp knn_cpp.cpp
     ./knn_cpp
-  ```
+   ```
 
 ## Results
 The results demonstrate the comparative efficiency of each language for running the KNN algorithm:
