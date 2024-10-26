@@ -54,28 +54,33 @@ The average time per prediction for each language:
 
 ### Python
 1. Ensure you have Python installed:
-   ```bash
-  python --version```
+  ```
+     python --version
+  ```
 
 2. Run the python script:
-  ```bash
+  ```
   python knn.py
+  ```
 
 ### Julia
 1. Install Julia and required packages:
-   ```bash
+   ```
   import Pkg
   Pkg.add("StatsBase")
+  ```
 
 2. Run the Julia script in the Julia REPL or terminal:
-  ```bash
+  ```
   julia knn.jl
+  ```
 
 ### C++
 1. Compille and run the c++ code:
-   ```bash
+   ```
   g++ -o knn_cpp knn_cpp.cpp
   ./knn_cpp
+  ```
 
 ## Results
 The results demonstrate the comparative efficiency of each language for running the KNN algorithm:
